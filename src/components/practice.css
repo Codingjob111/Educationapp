@@ -1,0 +1,62 @@
+.containerq {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .lookw {
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+  }
+  
+  .questionq {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .next-btn {
+    display: block;
+    padding: 1px 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .Previos-btn {
+    display: block;
+    padding: 1px 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 20px;
+  color: whitesmoke;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 16px;
+    
+    margin-bottom: 20px;
+  }
+  
+    
+    @media only screen and (max-width: 600px) {
+      .solve-btn,
+      .next-btn {
+        font-size: 14px;
+      }
+    }
+    
+  
+  

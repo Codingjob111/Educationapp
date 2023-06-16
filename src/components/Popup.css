@@ -1,0 +1,47 @@
+/* Custom styles for the callback button */
+.callback-button {
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .callback-button:hover {
+    background-color: pink;
+  }
+  
+  .callback-button:focus {
+    outline: none;
+  }
+  
+  /* Media queries for mobile responsiveness */
+  @media (max-width: 600px) {
+    .callback-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Media queries for tablet responsiveness */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .callback-button {
+      padding: 10px 18px;
+      font-size: 15px;
+    }
+  }
+  
+  /* Media queries for desktop responsiveness */
+  @media (min-width: 1025px) {
+    .callback-button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+  
+  

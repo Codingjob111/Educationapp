@@ -1,0 +1,61 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: teal;
+}
+
+.triangle-card {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  background-color: teal;
+  position: relative;
+}
+
+.triangle-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.triangle-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.triangle-card p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: wheat;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.triangle-card:before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #f5f5f5 transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .triangle-card {
+    width: 100%; /* Full width on mobile */
+    margin: 10px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .triangle-card {
+    width: 250px; /* Specific width for desktop */
+    margin: 20px;
+  }
+}

@@ -1,0 +1,81 @@
+.courses {
+    margin-top: 30px;
+  }
+  
+  .courses__title11 {
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .course-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+  }
+  .course-card:hover {
+    background-color: rebeccapurple;
+  }
+  
+  
+  .course-card {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .course-card__image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  
+  .course-card__details {
+    text-align: center;
+  }
+  
+  .course-card__title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+  }
+  
+  .course-card__description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .course-card__price-time {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .course-card__price {
+    font-weight: bold;
+  }
+  
+  .course-card__time-period {
+    color:black;
+  }
+  
+  .course-card__button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .course-card__button:hover {
+    background-color: #0056b3;
+  }
+  

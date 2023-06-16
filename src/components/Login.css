@@ -1,0 +1,35 @@
+
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .inputBox {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .appButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  @media (max-width: 767px) {
+    .login {
+      max-width: 300px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .login {
+      max-width: 500px;
+    }
+  }
+  

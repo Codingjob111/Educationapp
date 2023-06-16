@@ -1,0 +1,158 @@
+/* Global Styles */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+  background-color: teal;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.look {
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: palevioletred;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Code Block Styles */
+.code {
+  background-color: skyblue;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container1 {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+}
+
+
+
+
+
+
+
+/* Global Styles 
+body {
+    font-family: 'Courier New', Courier, monospace;
+     line-height: 1.6;
+     background-color: teal;
+     color: black;
+     margin: 0;
+     padding: 0;
+   }
+   .look{
+     color: whitesmoke;
+     font-family: 'Courier New', Courier, monospace;
+   }
+   
+   .container1 {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+     
+   }
+   
+   h1 {
+     font-size: 30px;
+     margin-bottom: 20px;
+     color: black;
+   }
+   
+   h2 {
+     font-size: 24px;
+     margin-bottom: 15px;
+     color: palevioletred;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+   p {
+     margin-bottom: 15px;
+   }
+   
+   /* Section Styles */
+   .section {
+     margin-bottom: 40px;
+   }
+   
+   .section-title {
+     font-size: 28px;
+     font-weight: bold;
+     margin-bottom: 20px;
+   }
+   
+   /* Code Block Styles */
+   .code {
+     background-color:skyblue;
+     padding: 15px;
+     margin-bottom: 20px;
+     font-family: monospace;
+   };
+   
+   /* Responsive Styles */
+   @media (max-width: 768px) {
+     .container {
+       padding: 10px;
+     }
+   
+     h1 {
+       font-size: 24px;
+     }
+   
+     h2 {
+       font-size: 20px;
+     }
+   
+     .section-title {
+       font-size: 24px;
+     }
+   }
+   

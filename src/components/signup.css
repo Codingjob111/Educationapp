@@ -1,0 +1,25 @@
+.register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .inputBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .appButton {
+    width: 30%;
+    padding:10px;
+    border-radius: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .register {
+      max-width: 300px;
+    }
+  }
+  
